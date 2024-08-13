@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    
+
+    
+    <script>
+        // fetch('http://ip-api.com/json/?fields=61439')
+        // .then(res => res.json())
+        // .then(res => console.log(res));
+        fetch('http://localhost:9090/notes')
+        .then(res => res.json())
+        .then(res => console.log(res));
+    </script>
+</body>
+</html>
